@@ -19,22 +19,22 @@ import io.swagger.v3.oas.models.security.SecurityScheme;
 public class SwaggerConfig {
 	 
 	@Bean
-    OpenAPI springBlogPessoalOpenAPI() {
+    OpenAPI springFarmaciaOpenAPI() {
         return new OpenAPI()
             .info(new Info()
-                .title("Projeto Loja de Games")
-                .description("Projeto Loja de Games - Generation Brasil")
+                .title("Projeto Farmacia Cura Tudo")
+                .description("Projeto Farmacia Cura Tudo")
                 .version("v0.0.1")
                 .license(new License()
-                    .name("Generation Brasil")
-                    .url("https://brazil.generation.org/"))
+                    .name("Jamila Moraes Cardoso")
+                    .url("https://github.com/jmcardoso18"))
                 .contact(new Contact()
-                    .name("Generation Brasil")
-                    .url("https://github.com/conteudoGeneration")
-                    .email("conteudogeneration@generation.org")))
+                    .name("Jamila Moraes Cardoso")
+                    .url("https://github.com/jmcardoso18")
+                    .email("jmc18.ads@gmail.com.br")))
             .externalDocs(new ExternalDocumentation()
                 .description("Github")
-                .url("https://github.com/conteudoGeneration/"))
+                .url("https://github.com/jmcardoso18/projeto_final_bloco_02"))
             .components(new Components()
                     .addSecuritySchemes("jwt_auth", createSecurityScheme()))
                 .addSecurityItem(new SecurityRequirement().addList("jwt_auth"));
