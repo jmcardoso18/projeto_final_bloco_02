@@ -3,9 +3,11 @@ package com.generation.farmacia.security;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.Date;
+
 import javax.crypto.SecretKey;
- 
+
 import org.springframework.stereotype.Component;
+
 import io.github.cdimascio.dotenv.Dotenv;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
