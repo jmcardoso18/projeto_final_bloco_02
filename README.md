@@ -228,6 +228,9 @@ Você pode executar os testes de duas formas:
 - Ao executar os testes, na **Package Explorer**, será exibida a guia **JUnit**  mostrando os resultados dos testes
 - Os testes que falharem serão destacados em vermelho, e os bem-sucedidos em verde
 - Clique nos testes para visualizar os detalhes ou mensagens de erro no item **Failure Trace**
+
+<img src="https://ik.imagekit.io/u0isfvxls/Farmacia/Testes/Captura%20de%20tela%202025-10-27%20132219.png?updatedAt=1761607041997" title="source: teste.com" width="100%"/>
+
  
 <br />
  
