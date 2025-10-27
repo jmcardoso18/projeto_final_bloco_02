@@ -6,13 +6,14 @@ import java.util.Map;
 import org.springframework.context.ApplicationContextInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
 import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.core.env.MapPropertySource;
 
 import io.github.cdimascio.dotenv.Dotenv;
 
 
-
+@Profile("!prod")
 @Configuration
 public class DotenvConfig implements ApplicationContextInitializer<ConfigurableApplicationContext> {
     
